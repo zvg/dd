@@ -3,7 +3,7 @@
 ## 依赖
 
 ```sh
-apt update && apt install -y xz-utils openssl gawk file
+apt update && apt install -y xz-utils openssl gawk file wget
 yum update && yum install -y xz openssl gawk file
 ```
 
