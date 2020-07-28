@@ -25,7 +25,8 @@ bash InstallNET.sh -d 10 -v 64 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'
 ```
 
 ```sh
-bash <(wget --no-check-certificate -qO- 'https://github.com/zvg/dd/raw/master/InstallNET.sh') -d 10 -v 64 -a
+bash <(wget --no-check-certificate -qO- \
+'https://github.com/zvg/dd/raw/master/InstallNET.sh') -d 10 -v 64 -a
 ```
 
 ### Debian 9
