@@ -105,10 +105,12 @@ bash InstallNET.sh -c 6.10 -v 64 -a --mirror 'http://archive.debian.org/debian/'
 # --ip-mask :Netmask   /子网掩码
 
 #使用自定义镜像全自动安装
-bash InstallNET.sh -c 10 -v 64 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'
+bash InstallNET.sh -d 10 -v 64 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'
 
 #使用自定义镜像自定义网络参数全自动安装
-bash InstallNET.sh -c 10 -v 64 -a --ip-addr x.x.x.x --ip-gate x.x.x.x --ip-mask x.x.x.x --mirror 'http://archive.debian.org/debian/'
+bash InstallNET.sh -d 10 -v 64 -a \
+--ip-addr x.x.x.x --ip-gate x.x.x.x --ip-mask x.x.x.x \
+--mirror 'http://archive.debian.org/debian/'
 
 #国内推荐使用USTC源
 --mirror 'http://mirrors.ustc.edu.cn/debian/'
