@@ -10,7 +10,9 @@ yum update && yum install -y xz openssl gawk file wget
 ## 下载
 
 ```sh
-wget --no-check-certificate -qO InstallNET.sh 'https://github.com/zvg/dd/raw/master/InstallNET.sh' && chmod a+x InstallNET.sh
+wget --no-check-certificate -qO InstallNET.sh \
+'https://github.com/zvg/dd/raw/master/InstallNET.sh' && \
+chmod a+x InstallNET.sh
 ```
 
 ## Debian
@@ -37,7 +39,8 @@ bash InstallNET.sh -d 9 -v 64 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'
 ```
 
 ```sh
-bash <(wget --no-check-certificate -qO- 'https://github.com/zvg/dd/raw/master/InstallNET.sh') -d 9 -v 64 -a
+bash <(wget --no-check-certificate -qO- \
+'https://github.com/zvg/dd/raw/master/InstallNET.sh') -d 9 -v 64 -a
 ```
 
 ## CentOS
@@ -51,7 +54,8 @@ bash InstallNET.sh -c 6.10 -v 32 -a --mirror 'http://mirror.centos.org/centos'
 ```
 
 ```sh
-bash <(wget --no-check-certificate -qO- 'https://github.com/zvg/dd/raw/master/InstallNET.sh') -c 6.9 -v 64 -a
+bash <(wget --no-check-certificate -qO- \
+'https://github.com/zvg/dd/raw/master/InstallNET.sh') -c 6.9 -v 64 -a
 ```
 
 ## Ubuntu
@@ -64,8 +68,10 @@ bash InstallNET.sh -u 16.04 -v 64 -a --mirror 'http://archive.ubuntu.com/ubuntu'
 ```
 
 ```sh
-bash <(wget --no-check-certificate -qO- 'https://github.com/zvg/dd/raw/master/InstallNET.sh') -u 18.04 -v 64 -a
-bash <(wget --no-check-certificate -qO- 'https://github.com/zvg/dd/raw/master/InstallNET.sh') -u 16.04 -v 64 -a
+bash <(wget --no-check-certificate -qO- \
+'https://github.com/zvg/dd/raw/master/InstallNET.sh') -u 18.04 -v 64 -a
+bash <(wget --no-check-certificate -qO- \
+'https://github.com/zvg/dd/raw/master/InstallNET.sh') -u 16.04 -v 64 -a
 ```
 
 ## 详情
