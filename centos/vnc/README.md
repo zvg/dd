@@ -7,4 +7,9 @@
 * 测试机器本机 HYPER-V 开的机器。阿里云轻量，腾讯云轻量，AWS轻量
 
 临时URL  https://raw.githubusercontent.com/zvg/dd/master/centos/vnc/vnc.sh
-使用方法：bash <(curl -s -S -L https://raw.githubusercontent.com/zvg/dd/master/centos/vnc/vnc.sh)
+
+使用方法：
+
+```sh
+bash <(curl -s -S -L https://raw.githubusercontent.com/zvg/dd/master/centos/vnc/vnc.sh)
+```
