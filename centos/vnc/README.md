@@ -1,4 +1,4 @@
-还在DD别人的Centos吗，分区不是自己想要的分区吗？使用本脚本即可可视化安装centos！
+还在 DD 别人的 Centos 吗，分区不是自己想要的分区吗？使用本脚本即可可视化安装 centos ！
 
 * 支持大部分Centos机器，理当支持ORALCE，做了EFI兼容支持
 * 不支持 Centos 6
